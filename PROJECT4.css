@@ -1,0 +1,27 @@
+/* CSS for BMI Scheme Table */
+.bmi-scheme {
+    margin-top: 20px;
+}
+
+.bmi-scheme table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi-scheme th, .bmi-scheme td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.bmi-scheme th {
+    background-color: #f2f2f2;
+}
+
+.bmi-scheme tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.bmi-scheme tr:hover {
+    background-color: #f2f2f2;
+}

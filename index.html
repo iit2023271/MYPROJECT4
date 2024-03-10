@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="PROJECT4.css">
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <label for="height">Enter your height (cm)</label>
+        <input type="text" id="heightInput" placeholder="Height in cm">
+        <label for="weight">Enter your weight (kg)</label>
+        <input type="text" id="weightInput" placeholder="Weight in kg">
+        <button id="calculateButton">Calculate BMI</button>
+        <div id="resultDisplay"></div>
+        
+        <!-- BMI Scheme Table -->
+        <div class="bmi-scheme">
+            <h2>BMI Categories</h2>
+            <table>
+                <tr>
+                    <th>Category</th>
+                    <th>Range</th>
+                </tr>
+                <tr>
+                    <td>Underweight</td>
+                    <td>&lt; 18.5</td>
+                </tr>
+                <tr>
+                    <td>Normal weight</td>
+                    <td>18.5 - 24.9</td>
+                </tr>
+                <tr>
+                    <td>Overweight</td>
+                    <td>&ge; 25</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="PROJECT4.js"></script>
+</body>
+</html>
