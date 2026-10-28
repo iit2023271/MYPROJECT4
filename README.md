@@ -3,6 +3,10 @@
 Enter your height (cm) and weight (kg) and get your Body Mass Index plus your weight category.
 
 
+## Screenshot
+
+![Demo](screenshots/demo.png)
+
 ## Features
 
 - BMI calculation from height (cm) and weight (kg)
